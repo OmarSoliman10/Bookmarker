@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bookmarker</title>
+</head>
+<body> 
+    <div class="container pt-2 my-5">
+        <h1 class="pb-3 ">Bookmarker</h1>
+        <hr>
+
+    <div class="form-project py-5 my-5 text-center ">
+        <h2>Bookmark your favorite sites</h2>
+        <div class="form-group mx-5">
+            <label for="Name" class="fw-bold pt-3">Site Name</label>
+            <input type="text" class="form-control " id="Name" placeholder="Bookmark Name">
+        </div>
+        <div class="form-group mx-5">
+            <label for="URL" class="fw-bold pt-3">Site URL</label>
+            <input type="text" class="form-control " id="URL" placeholder="website URL">
+        </div>
+        <button onclick="addProdact();" class="btn btn-primary mt-3" id="addBtn">Submit</button>
+        <button onclick="UpdataBook(productIndex);" class="btn btn-primary mt-3 d-none" id="updataBtn">Updata</button>
+
+    </div>
+
+<input oninput="searchProducts(this.value)" class="form-control" id="search" placeholder="search by name">
+    
+    <table class="table table-light my-5">
+        <thead>
+            <th>Name</th>
+            <th>URL</th>
+        </thead>
+
+        <tbody id="tableBody">
+
+        </tbody>
+    </table>
+<a href="" target="_blank"></a>
+    <hr>
+    <footer>
+        <h6 class="text-muted">© 2019 Bookmarker Inc.</h6>
+    </footer>
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

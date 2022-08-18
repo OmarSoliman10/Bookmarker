@@ -1,0 +1,19 @@
+*{
+    font-family: arial;
+}
+h1{
+    color: #AAA;
+    font-weight: bold;
+}
+
+
+.form-project{
+    background-color: #EEE;
+
+}
+
+table{
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}
